@@ -1,5 +1,5 @@
 import axios from "axios";
-const backendUrl = import.meta.env.VITE_BACKEND_URL;
+const backendUrl = import.meta.env.VITE_FRONTEND_API_URL;
 
 const API = axios.create({
     baseURL: `${backendUrl}`, // Replace with your backend URL
